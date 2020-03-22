@@ -23,11 +23,11 @@ Class for basic finite field operations on GF(2^8) in c++.
     gf28  a = 0x57, b = 131, c;
     
     //Finite field multiplication
-    c = a* b;
+    c = a * b;
     cout << c;
     
     //Finite field division
-    c = a/b;
+    c = a / b;
     cout << c;
 ```
 ## Notes
