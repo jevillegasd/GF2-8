@@ -9,7 +9,11 @@ Class for basic finite field operations on GF(2^8) in c++.
   * Comparison == : Returns true if the values of two gf28 variables are equal.
   * Modulo %  : Performs the GF(2^8) modulo computation;
   * Stream << : Displays the variable value as hex
-  
+
+## Operators overloaded: 
+ * xtime(): Returns the multiplication by 2 ('x') over GF(2^8), as defined for the Rijndael AES algorithm.
+ * x1time(): Returns the multiplication by 3 ('x+1') over GF(2^8).
+
 ## Example usage:
  
     gf28  a = 0x57, b = 0x83, c;
