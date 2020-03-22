@@ -2,13 +2,13 @@
 Class for basic finite field operations on GF(2^8).
 
 ## Operators overloaded: 
-  Addition + : Performs GF(2^8) addition, equivalent to bitwise XOR.
-  Multiplication * : Performs GF(2^8) multiplication using the Russian method.
-  Division / :  Performs GF(2^8) division by computing the multiplicative inverse through brute force.
-  Assignement = : Assigns an int to the variable value.
-  Comparison == : Returns true if the values of two gf28 variables are equal.
-  Modulo %  : Performs the GF(2^8) modulo computation;
-  Stream << : Displays the variable value as hex
+  * Addition + : Performs GF(2^8) addition, equivalent to bitwise XOR.
+  * Multiplication * : Performs GF(2^8) multiplication using the Russian method.
+  * Division / :  Performs GF(2^8) division by computing the multiplicative inverse through brute force.
+  * Assignement = : Assigns an int to the variable value.
+  * Comparison == : Returns true if the values of two gf28 variables are equal.
+  * Modulo %  : Performs the GF(2^8) modulo computation;
+  * Stream << : Displays the variable value as hex
   
 ## Example usage:
  
