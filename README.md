@@ -16,7 +16,11 @@ Class for basic finite field operations on GF(2^8) in c++.
 
 ## Example usage:
  
-    gf28  a = 0x57, b = 0x83, c;
+ ```c++
+ #include <iostream>
+ #include "gf28.h"
+ 
+    gf28  a = 0x57, b = 131, c;
     
     //Finite field multiplication
     c = a* b;
@@ -25,6 +29,6 @@ Class for basic finite field operations on GF(2^8) in c++.
     //Finite field division
     c = a/b;
     cout << c;
-    
+```
 ## Notes
 Passing data types to the operators has order prevalecence, that is `0x02*a` is computed as integer multiplication, whereas `a*0x02` is computed as a finite field multiplication.
