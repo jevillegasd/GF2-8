@@ -1,5 +1,5 @@
 # GF2-8
-Class for basic finite field operations on GF(2^8).
+Class for basic finite field operations on GF(2^8) in c++.
 
 ## Operators overloaded: 
   * Addition + : Performs GF(2^8) addition, equivalent to bitwise XOR.
