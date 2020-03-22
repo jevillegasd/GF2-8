@@ -10,9 +10,9 @@ Class for basic finite field operations on GF(2^8) in c++.
   * Modulo %  : Performs the GF(2^8) modulo computation;
   * Stream << : Displays the variable value as hex
 
-## Operators overloaded: 
- * xtime(): Returns the multiplication by 2 ('x') over GF(2^8), as defined for the Rijndael AES algorithm.
- * x1time(): Returns the multiplication by 3 ('x+1') over GF(2^8).
+## Functions: 
+ * xtime `gf28.xtime()`: Returns the multiplication by 2 ('x') over GF(2^8), as defined for the Rijndael AES algorithm.
+ * x1time `gf28.x1time()`: Returns the multiplication by 3 ('x+1') over GF(2^8).
 
 ## Example usage:
  
