@@ -31,4 +31,4 @@ Class for basic finite field operations on GF(2^8) in c++.
     cout << c;
 ```
 ## Notes
-Passing data types to the operators has order prevalecence, that is `0x02*a` is computed as integer multiplication, whereas `a*0x02` is computed as a finite field multiplication.
+Passing data types to the operators has order prevalecence, that is `0x02*a` is computed as integer multiplication, whereas `a*0x02` is computed as a finite field multiplication. Substraction is not implemented, but note that in a finite field with characteristic 2, substraction is equivalent to addition (abd equivalent to binary XOR).
