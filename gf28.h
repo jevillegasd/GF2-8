@@ -40,6 +40,9 @@ public:
 
 	gf28 operator = (uint8_t& arg1) { value = arg1; return value; }
 
+	gf28 operator += (gf28& arg1) { value = value ^ arg1.value; return value; }
+	gf28 operator += (const gf28& arg1) { value = value ^ arg1.value; return value; }
+
 	gf28 operator == (gf28& arg1) { return value == arg1; }
 
 	gf28 operator / (gf28& arg1) { return divide(*this, arg1); }
